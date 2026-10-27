@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100012C12000100000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200012C12000100000001 /* AppDelegate.swift */; };
+		A00100022C12000100000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200022C12000100000002 /* SceneDelegate.swift */; };
+		A00100032C12000100000003 /* OpticalLabTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200032C12000100000003 /* OpticalLabTheme.swift */; };
+		A00100042C12000100000004 /* JobStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200042C12000100000004 /* JobStage.swift */; };
+		A00100052C12000100000005 /* LensType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200052C12000100000005 /* LensType.swift */; };
+		A00100062C12000100000006 /* LensItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200062C12000100000006 /* LensItem.swift */; };
+		A00100072C12000100000007 /* OpticalJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200072C12000100000007 /* OpticalJob.swift */; };
+		A00100082C12000100000008 /* QcInspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200082C12000100000008 /* QcInspection.swift */; };
+		A00100092C12000100000009 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200092C12000100000009 /* DatabaseManager.swift */; };
+		A00100102C12000100000010 /* SoundFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200102C12000100000010 /* SoundFeedbackManager.swift */; };
+		A00100112C12000100000011 /* BarcodeActionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200112C12000100000011 /* BarcodeActionParser.swift */; };
+		A00100122C12000100000012 /* HardwareBarcodeScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200122C12000100000012 /* HardwareBarcodeScannerManager.swift */; };
+		A00100132C12000100000013 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200132C12000100000013 /* BarcodeScannerViewController.swift */; };
+		A00100142C12000100000014 /* EyeCloudSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200142C12000100000014 /* EyeCloudSettings.swift */; };
+		A00100152C12000100000015 /* EyeCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200152C12000100000015 /* EyeCloudViewController.swift */; };
+		A00100162C12000100000016 /* HeaderScannerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200162C12000100000016 /* HeaderScannerBarView.swift */; };
+		A00100172C12000100000017 /* BaseScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200172C12000100000017 /* BaseScannerViewController.swift */; };
+		A00100182C12000100000018 /* JobsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200182C12000100000018 /* JobsListViewController.swift */; };
+		A00100192C12000100000019 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200192C12000100000019 /* JobDetailViewController.swift */; };
+		A00100202C12000100000020 /* CreateJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200202C12000100000020 /* CreateJobViewController.swift */; };
+		A00100212C12000100000021 /* InventoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200212C12000100000021 /* InventoryListViewController.swift */; };
+		A00100222C12000100000022 /* LensDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200222C12000100000022 /* LensDetailViewController.swift */; };
+		A00100232C12000100000023 /* CreateLensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200232C12000100000023 /* CreateLensViewController.swift */; };
+		A00100242C12000100000024 /* ScanStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200242C12000100000024 /* ScanStationViewController.swift */; };
+		A00100252C12000100000025 /* QcInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200252C12000100000025 /* QcInspectionViewController.swift */; };
+		A00100262C12000100000026 /* ScannerSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200262C12000100000026 /* ScannerSettingsViewController.swift */; };
+		A00100272C12000100000027 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200272C12000100000027 /* MainTabBarController.swift */; };
+		A00100282C12000100000028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00200282C12000100000028 /* Assets.xcassets */; };
+		A00100292C12000100000029 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200292C12000100000029 /* AVFoundation.framework */; };
+		A00100302C12000100000030 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200302C12000100000030 /* AudioToolbox.framework */; };
+		A00100312C12000100000031 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200312C12000100000031 /* WebKit.framework */; };
+		A00100322C12000100000032 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A00200322C12000100000032 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00300002C12000100000000 /* OpticalLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpticalLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200012C12000100000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00200022C12000100000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A00200032C12000100000003 /* OpticalLabTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalLabTheme.swift; sourceTree = "<group>"; };
+		A00200042C12000100000004 /* JobStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStage.swift; sourceTree = "<group>"; };
+		A00200052C12000100000005 /* LensType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensType.swift; sourceTree = "<group>"; };
+		A00200062C12000100000006 /* LensItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensItem.swift; sourceTree = "<group>"; };
+		A00200072C12000100000007 /* OpticalJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalJob.swift; sourceTree = "<group>"; };
+		A00200082C12000100000008 /* QcInspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QcInspection.swift; sourceTree = "<group>"; };
+		A00200092C12000100000009 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		A00200102C12000100000010 /* SoundFeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFeedbackManager.swift; sourceTree = "<group>"; };
+		A00200112C12000100000011 /* BarcodeActionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeActionParser.swift; sourceTree = "<group>"; };
+		A00200122C12000100000012 /* HardwareBarcodeScannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareBarcodeScannerManager.swift; sourceTree = "<group>"; };
+		A00200132C12000100000013 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		A00200142C12000100000014 /* EyeCloudSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCloudSettings.swift; sourceTree = "<group>"; };
+		A00200152C12000100000015 /* EyeCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCloudViewController.swift; sourceTree = "<group>"; };
+		A00200162C12000100000016 /* HeaderScannerBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderScannerBarView.swift; sourceTree = "<group>"; };
+		A00200172C12000100000017 /* BaseScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScannerViewController.swift; sourceTree = "<group>"; };
+		A00200182C12000100000018 /* JobsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListViewController.swift; sourceTree = "<group>"; };
+		A00200192C12000100000019 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		A00200202C12000100000020 /* CreateJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobViewController.swift; sourceTree = "<group>"; };
+		A00200212C12000100000021 /* InventoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewController.swift; sourceTree = "<group>"; };
+		A00200222C12000100000022 /* LensDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensDetailViewController.swift; sourceTree = "<group>"; };
+		A00200232C12000100000023 /* CreateLensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLensViewController.swift; sourceTree = "<group>"; };
+		A00200242C12000100000024 /* ScanStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanStationViewController.swift; sourceTree = "<group>"; };
+		A00200252C12000100000025 /* QcInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QcInspectionViewController.swift; sourceTree = "<group>"; };
+		A00200262C12000100000026 /* ScannerSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerSettingsViewController.swift; sourceTree = "<group>"; };
+		A00200272C12000100000027 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A00200282C12000100000028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00200292C12000100000029 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A00200302C12000100000030 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A00200312C12000100000031 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A00200322C12000100000032 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A00200332C12000100000033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00400012C12000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100292C12000100000029 /* AVFoundation.framework in Frameworks */,
+				A00100302C12000100000030 /* AudioToolbox.framework in Frameworks */,
+				A00100312C12000100000031 /* WebKit.framework in Frameworks */,
+				A00100322C12000100000032 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00500002C12000100000000 = {
+			isa = PBXGroup;
+			children = (
+				A00500012C12000100000001 /* OpticalLabIOS */,
+				A00500082C12000100000008 /* Frameworks */,
+				A00500072C12000100000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00500012C12000100000001 /* OpticalLabIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A00200012C12000100000001 /* AppDelegate.swift */,
+				A00200022C12000100000002 /* SceneDelegate.swift */,
+				A00500022C12000100000002 /* Theme */,
+				A00500032C12000100000003 /* Models */,
+				A00500042C12000100000004 /* Database */,
+				A00500052C12000100000005 /* Barcode */,
+				A00500062C12000100000006 /* EyeCloud */,
+				A00500092C12000100000009 /* Controllers */,
+				A00200282C12000100000028 /* Assets.xcassets */,
+				A00200332C12000100000033 /* Info.plist */,
+			);
+			path = OpticalLabIOS;
+			sourceTree = "<group>";
+		};
+		A00500022C12000100000002 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A00200032C12000100000003 /* OpticalLabTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A00500032C12000100000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00200042C12000100000004 /* JobStage.swift */,
+				A00200052C12000100000005 /* LensType.swift */,
+				A00200062C12000100000006 /* LensItem.swift */,
+				A00200072C12000100000007 /* OpticalJob.swift */,
+				A00200082C12000100000008 /* QcInspection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A00500042C12000100000004 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A00200092C12000100000009 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A00500052C12000100000005 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				A00200102C12000100000010 /* SoundFeedbackManager.swift */,
+				A00200112C12000100000011 /* BarcodeActionParser.swift */,
+				A00200122C12000100000012 /* HardwareBarcodeScannerManager.swift */,
+				A00200132C12000100000013 /* BarcodeScannerViewController.swift */,
+			);
+			path = Barcode;
+			sourceTree = "<group>";
+		};
+		A00500062C12000100000006 /* EyeCloud */ = {
+			isa = PBXGroup;
+			children = (
+				A00200142C12000100000014 /* EyeCloudSettings.swift */,
+				A00200152C12000100000015 /* EyeCloudViewController.swift */,
+			);
+			path = EyeCloud;
+			sourceTree = "<group>";
+		};
+		A00500092C12000100000009 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A00200162C12000100000016 /* HeaderScannerBarView.swift */,
+				A00200172C12000100000017 /* BaseScannerViewController.swift */,
+				A00200272C12000100000027 /* MainTabBarController.swift */,
+				A00200182C12000100000018 /* JobsListViewController.swift */,
+				A00200192C12000100000019 /* JobDetailViewController.swift */,
+				A00200202C12000100000020 /* CreateJobViewController.swift */,
+				A00200212C12000100000021 /* InventoryListViewController.swift */,
+				A00200222C12000100000022 /* LensDetailViewController.swift */,
+				A00200232C12000100000023 /* CreateLensViewController.swift */,
+				A00200242C12000100000024 /* ScanStationViewController.swift */,
+				A00200252C12000100000025 /* QcInspectionViewController.swift */,
+				A00200262C12000100000026 /* ScannerSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A00500082C12000100000008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00200292C12000100000029 /* AVFoundation.framework */,
+				A00200302C12000100000030 /* AudioToolbox.framework */,
+				A00200312C12000100000031 /* WebKit.framework */,
+				A00200322C12000100000032 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00500072C12000100000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00300002C12000100000000 /* OpticalLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00600012C12000100000001 /* OpticalLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00700012C12000100000001 /* Build configuration list for PBXNativeTarget "OpticalLab" */;
+			buildPhases = (
+				A00800012C12000100000001 /* Sources */,
+				A00400012C12000100000001 /* Frameworks */,
+				A00900012C12000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpticalLab;
+			productName = OpticalLab;
+			productReference = A00300002C12000100000000 /* OpticalLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000012C12000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Optical Lab";
+				TargetAttributes = {
+					A00600012C12000100000001 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A00700002C12000100000000 /* Build configuration list for PBXProject "OpticalLabIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00500002C12000100000000;
+			productRefGroup = A00500072C12000100000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00600012C12000100000001 /* OpticalLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00900012C12000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100282C12000100000028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00800012C12000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100012C12000100000001 /* AppDelegate.swift in Sources */,
+				A00100022C12000100000002 /* SceneDelegate.swift in Sources */,
+				A00100032C12000100000003 /* OpticalLabTheme.swift in Sources */,
+				A00100042C12000100000004 /* JobStage.swift in Sources */,
+				A00100052C12000100000005 /* LensType.swift in Sources */,
+				A00100062C12000100000006 /* LensItem.swift in Sources */,
+				A00100072C12000100000007 /* OpticalJob.swift in Sources */,
+				A00100082C12000100000008 /* QcInspection.swift in Sources */,
+				A00100092C12000100000009 /* DatabaseManager.swift in Sources */,
+				A00100102C12000100000010 /* SoundFeedbackManager.swift in Sources */,
+				A00100112C12000100000011 /* BarcodeActionParser.swift in Sources */,
+				A00100122C12000100000012 /* HardwareBarcodeScannerManager.swift in Sources */,
+				A00100132C12000100000013 /* BarcodeScannerViewController.swift in Sources */,
+				A00100142C12000100000014 /* EyeCloudSettings.swift in Sources */,
+				A00100152C12000100000015 /* EyeCloudViewController.swift in Sources */,
+				A00100162C12000100000016 /* HeaderScannerBarView.swift in Sources */,
+				A00100172C12000100000017 /* BaseScannerViewController.swift in Sources */,
+				A00100182C12000100000018 /* JobsListViewController.swift in Sources */,
+				A00100192C12000100000019 /* JobDetailViewController.swift in Sources */,
+				A00100202C12000100000020 /* CreateJobViewController.swift in Sources */,
+				A00100212C12000100000021 /* InventoryListViewController.swift in Sources */,
+				A00100222C12000100000022 /* LensDetailViewController.swift in Sources */,
+				A00100232C12000100000023 /* CreateLensViewController.swift in Sources */,
+				A00100242C12000100000024 /* ScanStationViewController.swift in Sources */,
+				A00100252C12000100000025 /* QcInspectionViewController.swift in Sources */,
+				A00100262C12000100000026 /* ScannerSettingsViewController.swift in Sources */,
+				A00100272C12000100000027 /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00A00012C12000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00A00022C12000100000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00A00032C12000100000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpticalLabIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.opticallab.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00A00042C12000100000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpticalLabIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.opticallab.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00700002C12000100000000 /* Build configuration list for PBXProject "OpticalLabIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A00012C12000100000001 /* Debug */,
+				A00A00022C12000100000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00700012C12000100000001 /* Build configuration list for PBXNativeTarget "OpticalLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A00032C12000100000003 /* Debug */,
+				A00A00042C12000100000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000012C12000100000001 /* Project object */;
+}
